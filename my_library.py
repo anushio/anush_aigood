@@ -133,3 +133,6 @@ def try_archs(train_table, test_table, target_column_name, architectures, thresh
     display(up_metrics_table(all_mets))
 
   return arch_acc_dict
+
+up_write_table(pima_train, 'pima_train.csv')  #then move over to github to get url
+up_write_table(pima_test, 'pima_test.csv')  #then move over to github to get url
